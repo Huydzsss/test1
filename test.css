@@ -1,0 +1,116 @@
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+.wrapper{
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+header {
+    height: 160px;
+    background-image: url(./images/header.jpg);
+    background-position: center;
+    background-repeat: repeat-y;
+}
+body{
+    color: #666666;
+	background-color: white;
+	background-image: url("images/dark-wood.jpg");
+	background-position: center;
+    line-height: 1.4em;
+	font-family: Georgia, Times, serif;
+	margin: 0px;
+}
+nav ul {
+    margin: 0px;
+	padding: 5px 0px 5px 30px;
+    position: relative;
+    top: 130px;
+}
+nav li {
+    display: inline;
+    margin-right: 40px;
+    
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+    
+    
+}
+nav li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+nav footer{
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+    height: 30px;
+
+}
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+}
+a {
+    color: #de6581;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    font-weight: normal;
+    }
+    h2 {
+        margin: 10px 0px 5px 0px;
+        padding: 0px;
+    }
+    h3 {
+        margin: 0px 0px 10px 0px;
+		color: #de6581;
+    }
+    figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+hgroup {
+    margin-top: 40px;
+}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+section.kid {
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eeeeee;}
+    aside section a {
+        display: block;
+        padding: 10px;
+        
+        
+    }
+    aside section a:hover {
+        color: #985d6a;
+        background-color: #efefef;
+    }
+    aside h2 {
+        padding: 30px 0px 10px 0px;
+        color: #de6581;
+    }
+    footer {
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;
+    }
+    figure {
+        float: left;
+        width: 290px;
+        height: 180px;
+        padding: 2px;
+        margin: 20px;
+        border: 1px solid #eeeeee;
+    }

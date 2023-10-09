@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("images/dark-wood.jpg");
+    background-position: center;
+    margin: 0;
+}
+
+.wraper {
+    width: 940px;
+    margin: 20px auto;
+    border: 2px solid #000000;
+}
+
+header {
+    height: 160px;
+    background-image: url('./images/header.jpg');
+    background-position: center;
+    background-repeat: repeat-y;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+nav {
+    clear: both;
+    color: #ffffff;
+    background-color: #aeaca8;
+}
+
+h1 {
+    text-indent: -9999px;
+    width: 940px;
+    height: 130px;
+    margin: 0;
+}
+
+.kid {
+    margin-top: 20px;
+}
+
+article {
+    padding: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+hgroup {
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
